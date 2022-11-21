@@ -1,5 +1,9 @@
-def sort_by_length(arr):
-    return sorted(arr,key=len)
+def process_data(data):
+    result=1
+    differences=[]
 
-a=["Telescopes", "Glasses", "Eyes", "Monocles"]
-print(sort_by_length(a))
+    for sub_list in data:
+        differences.append(sub_list[0]-sub_list[1])
+    for difference in differences:
+        result *=difference
+    return result
