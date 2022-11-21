@@ -4,3 +4,9 @@ def stray(arr):
             return x
 arr=[1,2,1,1,1,1,1]
 stray(arr)
+def filter_list(l):
+    a=[]
+    for i in l:
+        if isinstance(i,(int)):
+            a.append(i)
+    return  a 
