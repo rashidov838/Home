@@ -32,8 +32,9 @@ def spacey(array):
     return out
 a=['i', 'have','no','space']
 print(spacey(a))
+print(spacey(a))
 # Next
 my_sentence = "Jessica found a dollar on the ground"
 print("Original sentence: ", my_sentence)
 print(sorted(my_sentence.split(), key=len))
-print(sorted(my_sentence.split(), key=len))  
+print(sorted(my_sentence.split(), key=len)) 
