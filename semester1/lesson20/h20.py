@@ -39,3 +39,10 @@ print("Original sentence: ", my_sentence)
 print(sorted(my_sentence.split(), key=len))
 print(sorted(my_sentence.split(), key=len)) 
 Next
+# * 'Hello world'   => true
+# * ' Hello world'  => false
+# * 'Hello world  ' => false
+# * 'Hello  world'  => false
+# * 'Hello'         => true  
+# def valid_spacing(s):
+#     return s == ' '.join(s.split())
