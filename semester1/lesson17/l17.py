@@ -80,7 +80,7 @@ def pig_it(text):
      tl = text.split(' ')
      store = []
      for i in tl:
-         if i.isalpha():
+        if i.isalpha():
              i = i[1:]+i[0] + 'ay'
              store.append(i)
              return ' '.join(store)
