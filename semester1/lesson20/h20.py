@@ -16,3 +16,17 @@ def process_data(data):
 # [2, 5] --> 2 - 5 --> -3
 # [3, 4] --> 3 - 4 --> -1
 # [8, 7] --> 8 - 7 --> 1
+# ['i', 'have','no','space']---->['i','ihave','ihaveno','ihavenospace']
+def spacey(array):
+    strr = ''
+    out = []
+    for el in array:
+        strr += str(el)
+        out.append(strr)
+    return out
+a=['i', 'have','no','space']
+print(spacey(a))
+# Next
+my_sentence = "Jessica found a dollar on the ground"
+print("Original sentence: ", my_sentence)
+print(sorted(my_sentence.split(), key=len))
