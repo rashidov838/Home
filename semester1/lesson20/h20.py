@@ -1,6 +1,6 @@
-def sort_by_length(arr):
-    return sorted(arr,key=len)
-
+def process_data(data):
+    result=1
+    differences=[]
 a=["Telescopes", "Glasses", "Eyes", "Monocles"]
 print(sort_by_length(a))
 # https://www.codewars.com/kata/586e1d458cb711f0a800033b/train/python
@@ -29,4 +29,4 @@ print(spacey(a))
 # Next
 my_sentence = "Jessica found a dollar on the ground"
 print("Original sentence: ", my_sentence)
-print(sorted(my_sentence.split(), key=len))
+print(sorted(my_sentence.split(), key=len))  
