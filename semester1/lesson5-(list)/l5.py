@@ -31,7 +31,9 @@ print(names)
 names=[1,2,3,4,5,12.5,'abcd',True, False]
 print(names)
 names[0]=False
+print(names)
 names[7]='good'
+print(names)
 print(names[7][0])
 names=[[1,2,3],[4.5,5.6,6.7],['go','gp1','go2']]
 print(names[2][2])
