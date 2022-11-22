@@ -10,6 +10,7 @@ def is_isogram(string):
                 return True
     else:
         return True
+        
 def stray(arr):
     for x in arr:
         if arr.count(x) == 1:
