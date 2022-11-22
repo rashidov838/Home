@@ -1,6 +1,5 @@
 def sort_by_length(arr):
     return sorted(arr,key=len)
-
 a=["Telescopes", "Glasses", "Eyes", "Monocles"]
 print(sort_by_length(a))
 # https://www.codewars.com/kata/586e1d458cb711f0a800033b/train/python
