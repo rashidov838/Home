@@ -9,7 +9,7 @@ class Marker:
     def draw(self,line_length):
         if self.health <=0:
             return "Маркер истощен"
-        elif 
+        # elif
         self.health -=line_length
         
 marker1=Marker("Marker inc", "Red", 123)

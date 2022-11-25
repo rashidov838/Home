@@ -1,20 +1,20 @@
-# class Me:
-#     def __init__(self,name,lastname,age):
-#         self.name=name
-#         self.lastname=lastname
-#         self.age=age
-#     # def __str__(self) :
-#     #     return f'{self.name}  {self.lastname} {self.age}'
-#     def introduction(self,swim,jump,walk):
-#         self.swim=swim
-#         self.jump=jump
-#         self.walk=walk
-#         return f'Меня зовут {self.name} {self.lastname}.Мне  {self.age} лет. Я люблю {self.swim} и {self.jump} и {self.walk}'
+class Me:
+    def __init__(self,name,lastname,age):
+        self.name=name
+        self.lastname=lastname
+        self.age=age
+    # def __str__(self) :
+    #     return f'{self.name}  {self.lastname} {self.age}'
+    def introduction(self,swim,jump,walk):
+        self.swim=swim
+        self.jump=jump
+        self.walk=walk
+        return f'Меня зовут {self.name} {self.lastname}.Мне  {self.age} лет. Я люблю {self.swim} и {self.jump} и {self.walk}'
 
-# me=Me("Bekzod","Rashidov",19)
-# # print(me.name,me.lastname,me.age)
-# # print(me) 
-# print(me.introduction("плавать","прыгать","гулять"))
+me=Me("Bekzod","Rashidov",19)
+# print(me.name,me.lastname,me.age)
+# print(me) 
+print(me.introduction("плавать","прыгать","гулять"))
 
 
 class  Car:
