@@ -217,7 +217,7 @@ user2={
 
 a=user.setdefault('name')
 print(a)
-s=user2.setdefault('name') #Пиши ключ получаем значение
+s=user2.setdefault('name') #Пишим ключ получаем значение
 print(s)
 
 # d=user.setdefault('color','white')
@@ -245,30 +245,30 @@ print(user)
 
 
 # VAlues
-# user={
-#     'name':'bekzod',
-#     'password':'1234567',
-#     'age':89
-# }
-# user2={
-#     'name':'Sancho',
-#     'password':'098765',
-#     'age':78
-# }
-# a=user2.values()
-# print(a)
-# user2['age']=34
-# print(a)
+user={
+    'name':'bekzod',
+    'password':'1234567',
+    'age':89
+}
+user2={
+    'name':'Sancho',
+    'password':'098765',
+    'age':78
+}
+a=user2.values()
+print(a)
+user2['age']=34
+print(a)
 # ///////////////////////////////////////////////////////
 
-# user={
-#     'name':'bekzod',
-#     'password':'1234567',
-#     'age':89
-# }
-# user['name']='Samina'
-# user['university']='Amity'
-# print(user)
+user={
+    'name':'bekzod',
+    'password':'1234567',
+    'age':89
+}
+user['name']='Samina'
+user['university']='Amity'
+print(user)
 
 # del user['password']
 # print(user)

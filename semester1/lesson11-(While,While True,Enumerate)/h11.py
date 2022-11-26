@@ -9,12 +9,12 @@
 
 # Exercise2 
  
-# b=[2,3,4,5,6]
-# for i in range(len(b)):
-#     if i%2==0:
-#         print('Четное')
-#     else:
-#         print('Нечетное')
+b=[2,3,4,5,6]
+for i in range(len(b)):
+    if i%2==0:
+        print('Четное')
+    else:
+        print('Нечетное')
    
 # Дополнительно сам сделал
 # a=int(input('Write number: '))
@@ -42,7 +42,6 @@
 #             break
 #         else:
 #             print(f'Жить можно{i}')            
-# ///////////////////////////////////////////
 
 
 
@@ -64,8 +63,7 @@ i = 0
 while i < len(faranheits):
     celsius = ((faranheits[i]) - 32) * 5 / 9
     i += 1
-    if celsius >= 50:
-        
+    if celsius >= 50:        
         print(f"Слишком горячо: {celsius}")
         break  
     elif celsius <= 5:

@@ -2,10 +2,6 @@
 # *  *  
 # *  * 
 # **** 
-from queue import Empty
-from traceback import print_tb
-
-
 # square_line = 4 
 # star = "*" 
 # star_width = star * square_line 
@@ -15,7 +11,7 @@ from traceback import print_tb
 # print(star_width) 
 # for i in range(square_line): 
 #     print(star, end="") 
-#    
+   
 # square_line = 4 
 # star = "*" 
 # star_width = star * square_line 
@@ -41,19 +37,17 @@ from traceback import print_tb
 #     if i==100:
 #         break
 
+names=[1,2,3,4,5,6,8]
+i=0
+while i<len(names):
+    print(names[i])
+    i +=1
 
-# names=[1,2,3,4,5,6]
-# i=0
-# while i<len(names):
-#     print(names[i])
-#     i +=1
-
-# s='qwertyui'
-# for i in range(len(s)):
-#     s[i]
-# for i,val in enumerate('qwertyui'):
-#   
-#   print(i,val)
+s='qwertyui'
+for i in range(len(s)):
+    print(s[i])
+for i,val in enumerate('qwertyui'):  
+  print(i,val)
 
 # square_line = 4 
 # star = "*" 
@@ -65,8 +59,8 @@ from traceback import print_tb
 #     else:
 #         print(star*square_line) 
 
-# a=[1, 1, 2, 3, 4, 4, 5, 3]
-# print(set(a))
+a=[1, 1, 2, 3, 4, 4, 5, 3]
+print(set(a))
 # Создать программу, которая сортирует словарь по ключу и возвращает в ответ список из кортежей 
 # sort_dict({3:1, 2:2, 1:3}) == [(1,3), (2,2), (3,1)] 
 # sort_dict({1:2, 2:4, 3:6}) == [(3,6), (2,4), (1,2)]

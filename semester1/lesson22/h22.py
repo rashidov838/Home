@@ -1,17 +1,17 @@
 # # 1
-# class Point():
-#     color='red'
-#     circle=2
-#     def set_coords(self,x,y):
-#         self.x=x
-#         self.y=y
+class Point():
+    color='red'
+    circle=2
+    def set_coords(self,x,y):
+        self.x=x
+        self.y=y
 
-# pt=Point()
-# pt2=Point()
-# pt.set_coords(1,3)
-# pt2.set_coords(111,300)
-# print(pt.__dict__)
-# print(pt2.__dict__)
+pt=Point()
+pt2=Point()
+pt.set_coords(1,3)
+pt2.set_coords(111,300)
+print(pt.__dict__)
+print(pt2.__dict__)
 # # 2
 # class Point():
 #     color='red'
@@ -59,13 +59,14 @@
 # print(pt)
 
     
-# class Person:
-#     def __init__(self, name):
-#         self.name = name
-#     def greet(self, name):
-#         return "Hello {}, my name is {}".format(name, self.name)
-# joe = Person('Joe')
-# print(joe.greet('Kate'))
+class Person:
+    def __init__(self, name):
+        self.name = name
+    def greet(self, name):
+        return "Hello {}, my name is {}".format(name, self.name)
+joe = Person('Joe')
+print(joe.greet('Kate'))
+
 
 class Point:
     def set_coords(self,A,B,C):
@@ -94,8 +95,12 @@ print(pt2.__dict__)
 # print(count_by(1,10))
 # "This website is for losers LOL!"
 
-# def disemvowel(string_):
-#     b=string_[:2]+string_[3:4] + string_[5:6] +string_[7:9]+string_[10:11]+string_[14:15]+string_[16:17]+string_[19:21]+string_[22:23]+string_[24:26]+string_[27:28]+string_[30:31]+string_[32:]
-#     t=b.split("_")
-#     return t
-# print(disemvowel("This website is for losers LOL!"))
+def disemvowel(string_):
+    # b=string_[:2]+string_[3:4] + string_[5:6] +string_[7:9]+string_[10:11]+string_[14:15]+string_[16:17]+string_[19:21]+string_[22:23]+string_[24:26]+string_[27:28]+string_[30:31]+string_[32:]
+    # t=b.split("_")
+    a=string_.replace('i','')
+    t=a.replace('e','')
+    s=t.replace('o','')
+    s1=s.replace('O','')
+    return s1
+print(disemvowel("This website is for losers LOL!"))
