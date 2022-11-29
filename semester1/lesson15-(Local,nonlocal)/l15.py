@@ -92,6 +92,6 @@ name='Dave'
 def spam():
     global name #Импортируем глобальную переменную
     name='Guido' #Change the global name above
-
+ 
 spam()
 print(name)

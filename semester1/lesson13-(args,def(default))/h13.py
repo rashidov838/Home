@@ -35,13 +35,9 @@ def asd():
     for i in range(len(a)):
         b=[]
         b.append([a]*4)
-    if isinstance(i,(list)):
-        for val in i:
-            print(val='\n\n')
     return b
     
-print(str(*asd()), end='\n')
-# //////////////////////////////////////////////
+print(*asd(), end='\n')
 
 
 

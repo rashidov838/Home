@@ -40,14 +40,14 @@ print(shades_of_grey(50))
 # func(12,4,'not hi')
 
 # #арги
-# def func(a,b,default='hi',*args):
-#     print(a,b,default,'args= ',args)
-# func(12,4,'wqeqwq',[{3,4, 3,4,5,6}])
+def func(a,b,default='hi',*args):
+    print(a,b,default,'args= ',args)
+func(12,4,'wqeqwq',[{3,4, 3,4,5,6}])
 
-# def any(*args):
+def any(*args):
 #     """ Функция которая принимает любое количество аргументов и выводит тх на экран """
-#     print('args= ',args)
-#     for arg in args:
-#         print(arg)
-# any(2,3,4,'goooooo','biiiiiiii',{3,2,2,},(4,4,4),[1,2,3])
+    print('args= ',args)
+    for arg in args:
+        print(arg)
+any(2,3,4,'goooooo','biiiiiiii',{3,2,2,},(4,4,4),[1,2,3])
 

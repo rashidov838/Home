@@ -8,13 +8,13 @@
 # from cgi import print_arguments
 
 
-# n=int(input())
-# c=0
-# for i in range(1,n+1):
-#     for j in range(1,i+1):
-#         print(c + j,end=' ')
-#     c=c+1
-#     print()
+n=int(input())
+c=0
+for i in range(1,n+1):
+    for j in range(1,i+1):
+        print(c + j,end=' ')
+    c=c+1
+    print()
 
 # from itertools import permutations
 # inp="codewars"

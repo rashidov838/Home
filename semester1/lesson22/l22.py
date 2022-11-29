@@ -1,27 +1,27 @@
-# class PlayerCharacter:
-#     membership=True
-#     def __init__(self,name='Bekzod',age=19) :
-#         self.name=name
-#         self.age=age
+class PlayerCharacter:
+    membership=True
+    def __init__(self,name='Bekzod',age=19) :
+        self.name=name
+        self.age=age
     
-#     def shout(self):
-#         return f"My name is {self.name}"
+    def shout(self):
+        return f"My name is {self.name}"
     
-#     @classmethod
-#     def adding_things_2(cls,num1,num2,num3,num4):
-#         return cls(num1+num2,num3*num4)
+    @classmethod
+    def adding_things_2(cls,num1,num2,num3,num4):
+        return cls(num1+num2,num3*num4)
      
-#     @staticmethod
-#     def multiply(a,b): # Оно используется без self
-#         return a*b
+    @staticmethod
+    def multiply(a,b): # Оно используется без self
+        return a*b
 
-# players_1=PlayerCharacter('Sher',30)
-# print(players_1.name,players_1.age)# Перезаписать
+players_1=PlayerCharacter('Sher',30)
+print(players_1.name,players_1.age)# Перезаписать
 
-# players_3=PlayerCharacter.adding_things_2(2,20,90,90)
-# print(players_3.age,players_3.name) 
+players_3=PlayerCharacter.adding_things_2(2,20,90,90)
+print(players_3.age,players_3.name) 
 
-# print(players_1.multiply(20,80)) 
+print(players_1.multiply(20,80)) 
 
 
 # class PlayerCharacter:

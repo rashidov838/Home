@@ -1,9 +1,9 @@
 # Exercise1
-# def make_upper_case():
-#     a=input()
-#     i=a.upper()
-#     return a.upper()
-# print(make_upper_case())
+def make_upper_case():
+    a=input()
+    i=a.upper()
+    return a.upper()
+print(make_upper_case())
 # Exercise2
 def greet_qwe():
     return 2**4
@@ -25,9 +25,13 @@ def even(a):
 even(9)
 for i in range(4,18):
     even(i)
-
+    
 def factorial(n):
     pr=1
+    a=[]
     for i in range(2,n+1):
         pr=pr*i
-    print(pr)
+        a.append(pr)
+    return a
+print(factorial(10))
+
