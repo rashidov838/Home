@@ -1,5 +1,4 @@
-# class Math:
-    
+# class Math: 
 #     def __init__(self,multiplication,square,ploshad,circle):
 #         self.multiplication=multiplication
 #         self.square=square
@@ -10,30 +9,30 @@
 #         self.a=int(input("a= "))
 #         self.b=int(input("b= "))
 #         self.multiplication=(self.a*self.b)
-#         return self.multiplication
+#         return f" Multiplication = {self.multiplication}"
 #     def Square(self):
 #         self.c=int(input("c= "))
 #         self.d=int(input("d= "))
 #         self.l=self.c**self.d
-#         return self.l
+#         return f" Square = {self.l}"
 #     @staticmethod
-#     def ploshad_kvadrata(o,h):
-#         return o*h
+#     def ploshad_kvadrata(o=int(input('O= ')),h=int(input('h= '))):
+#         return f"kvadrata ={o*h}"
 #     @staticmethod
 #     def ploshad_circle(P=3.14,R=int(input('R= '))):
 #         L= P*(R**2)
-#         return L
+#         return f"ploshad_circle ={L}"
 #     @staticmethod    
 #     def ploshad_triangle(F=int(input('F= ')),G=int(input('G= ')),Y=int(input('Y= '))):
 #             p=(F+G+Y)/2
 #             s=pow((p*(p-F)*(p-G)*(p-Y)),1/2)
-#             return s
+#             return f"ploshad_triangle = {s}"
 
 # maths=Math(1,2,3,4)
 # print(maths.Multiplication())
 # print(maths.Square())
-# print(maths.ploshad_kvadrata(20,80))
-# print(maths.ploshad_circle())
+# print(maths.ploshad_kvadrata())
+# print(maths .ploshad_circle())
 # print(maths.ploshad_triangle())
 
 
