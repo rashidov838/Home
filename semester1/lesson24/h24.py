@@ -38,29 +38,65 @@
 # d=p1-p2
 # print(c.lol,d.value)
 
-class Point1:
-    def __init__(self,x) :
-        self.x=x
-    def __floordiv__(self,other):
-        return Point1(self.x//other.x)
-    def __truediv__(self,other):
-        return Point1(self.x/other.x)
-    def __str__(self) :
-        return "Number " + str(self.x)
-a=Point1(200)
-b=Point1(100)
-print(a//b)
-print(a/b)
+# class Point1:
+#     def __init__(self,x) :
+#         self.x=x
+#     def __floordiv__(self,other):
+#         return Point1(self.x//other.x)
+#     def __truediv__(self,other):
+#         return Point1(self.x/other.x)
+#     def __str__(self) :
+#         return "Number " + str(self.x)
+# a=Point1(200)
+# b=Point1(100)
+# print(a//b)
+# print(a/b)
 
-class Character:
-    def __init__(self,name,surname,age) :
+# class Character:
+#     def __init__(self,name,surname,age) :
+#         self.name=name
+#         self.surname=surname
+#         self.age=age
+#     def __eq__(self,other):
+#         return Character(self.name==other.name,self.surname==other.surname,self.age==other.age)
+#     def __str__(self):
+#          return "NAme: " +  str(self.name) + "Surname: " + str(self.surname) + "Age: " +str(self.age)
+# per1=Character("Bekzod",'Rashidov',90)
+# per2=Character('Jony','Muminov',90)
+# print(per1==per2)
+
+
+# class Animal:
+#     def __init__(self,name):
+#         self.name=name
+
+# class Bird(Animal):
+#     def __init__(self, name,color,wings,place,food):
+#         super().__init__(name)
+#         self.color=color
+#         self.wings=wings
+#         self.place=place
+#         self.food=food
+
+# orel=Bird("Whitehead eagle ", 'Black', 2,'USA','chicken')
+
+
+class Figure:
+    def __init__(self,name):
         self.name=name
-        self.surname=surname
-        self.age=age
-    def __eq__(self,other):
-        return Character(self.name==other.name,self.surname==other.surname,self.age==other.age)
-    def __str__(self):
-         return "NAme: " +  str(self.name) + "Surname: " + str(self.surname) + "Age: " +str(self.age)
-per1=Character("Bekzod",'Rashidov',90)
-per2=Character('Jony','Muminov',90)
-print(per1==per2)
+
+class Triangle(Figure):
+    def __init__(self, name,a,b,c):
+        super().__init__(name)
+        self.a=a
+        self.b=b
+        self.c=c
+    def p(self):
+        return self.a+self.b+self.c
+
+    def s(self):
+        per=self.p()/2
+        return (per*(per-self.a)*(per-self.b)*(per-self.c))**0.5
+tr=Triangle('10',2,3,4)
+print(tr.p())
+print(tr.s())
