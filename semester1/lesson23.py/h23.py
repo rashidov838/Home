@@ -110,7 +110,7 @@ print(personages_1.attack(),personages_1.level_up(),personages_1.heals())
 
 
 
-
+ 
 # # Codewars
 # class Block:
 #     def __init__(self,a,b,c):
