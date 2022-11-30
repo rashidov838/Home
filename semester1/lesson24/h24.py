@@ -100,3 +100,36 @@ class Triangle(Figure):
 tr=Triangle('10',2,3,4)
 print(tr.p())
 print(tr.s())
+
+# class Character:
+#     def __init__(self,name,surname,age) :
+#         self.name=name
+#         self.surname=surname
+#         self.age=age
+#     def __eq__(self,other):
+#         return Character(self.name==other.name,self.surname==other.surname,self.age==other.age)
+#     def __str__(self):
+#          return "NAme: " +  str(self.name) + "Surname: " + str(self.surname) + "Age: " +str(self.age)
+# per1=Character("Bekzod",'Rashidov',90)
+# per2=Character('Jony','Muminov',90)
+# print(per1==per2)
+
+class Computer:
+    def __init__(self,CPU,RAM,ROM,user) :
+        self.CPU=CPU
+        self.RAM=RAM
+        self.ROM=ROM
+        self.user=user
+        self.say_user()
+    def say_user(self):
+        print(f'Владелец этого компьютера явдяется{self.user}')
+
+    def __eq__(self, other):
+        return self.RAM==other.RAM
+
+c1=Computer('15',16,1000,' Bekzod')
+c2=Computer('201',116,71000,' Sher')
+print(c1==c2)
+
+
+
