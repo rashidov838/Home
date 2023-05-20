@@ -1,0 +1,32 @@
+startproject project
+project: 
+1.urls = Контролер путей         #path('', include('users.urls'))
+2.settings = Настройки проекта
+-------------------------------------------------------------------------
+startapp users
+Users-Приложения 
+Users: 
+1.Urls Контролер путей  # path('members/', views.members, name='members')
+2.Views - Это то что отображается на странице
+Добавляем
+from django.shortcuts import render
+from django.http import HttpResponse
+from django.template import loader
+def members(request):
+    template=loader.get_template('helloworld.html')
+    return HttpResponse(template.render())
+3.Templates- переменная то что мы напишем в Html file 
+
+В  Settings находим installed  добавляем 'users'
+Terminal:
+py manage.py migrate
+
+4. Models - база данных хранит информацию
+class User(models.Model):
+    firstname = models.CharField(max_length=255)
+    lastname = models.CharField(max_length=255)
+
+Terminal:
+python manage.py makemigrations users
+python manage.py migrate
+
