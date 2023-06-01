@@ -97,20 +97,20 @@ print(buy(32,45))
 
 
 # -------------------------------------------
-# def repeat(num_items):
-#     def decorator_repeat(func):
-#         def wrapper_repeat(*args,**kwargs):
-#             for i in range(num_items):
-#                 value=func(*args,**kwargs)
-#             return value
-#         return wrapper_repeat
-#     return decorator_repeat
+def repeat(num_items):
+    def decorator_repeat(func):
+        def wrapper_repeat(*args,**kwargs):
+            for i in range(num_items):
+                value=func(*args,**kwargs)
+            return value
+        return wrapper_repeat
+    return decorator_repeat
 
-# @repeat(num_items=3)
-# def hello():
-#     print("hi baby")
+@repeat(num_items=3)
+def hello():
+    print("hi baby")
 
-# hello()
+hello()
 
 
 

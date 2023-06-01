@@ -5,9 +5,9 @@ numbers=[i for i in range(10)]
 
 numbers_2=[i for i in range(10,15)]
 
-numbers_3=[i for i in range(20,30)]
+# numbers_3=[i for i in range(20,30)]
 
-# print(list(map(mult,numbers,numbers_2,numbers_3)))
+# # print(list(map(mult,numbers,numbers_2,numbers_3)))
 
 
 
