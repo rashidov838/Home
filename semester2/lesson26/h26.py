@@ -20,14 +20,6 @@ class Store:
         
     @classmethod
     def register(cls,name,email,password,card_code,card_balance):
-        """Регистрация и создание пользования
-            Args:
-                name(str):name
-                email(str):email
-                password(str):password
-                card_code(str):card_code
-                card_balance(int):card_balance
-        """
         for user in USERS:
             if user['email']==email or user['password']==password:
                 return 'Пользователь с такими данными уже есть.'
