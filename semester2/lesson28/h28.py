@@ -23,7 +23,7 @@ def print_staff_report(location, staff_dict):
     print(str(sales_people) + ' sales employees')
     print(str(managers) + ' floor managers')
     try:
-        ratio = sales_people % managers
+        ratio = sales_people / managers
         print('The ratio of sales people to managers is ' + str(ratio))
     except ZeroDivisionError as err:
         print(f'The ratio of sales people to managers is not available because we have {err}')
@@ -46,7 +46,7 @@ def submit_order(instrument, quantity):
     try:
         supply = inventory[instrument]
     except KeyError as err:
-        print(f'We dont' + str(err) + 'in stock')
+        print(f'We dont have' + str(err) + 'in stock')
     for inv in inventory:
         name=inv
         id=inventory[name]
@@ -84,7 +84,7 @@ for i in titles:
 
 pattern_node_js=re.compile(" node js")
 for i in titles:
-    print(pattern_node_js.search(i))
+    print(pattern_node_js.findall(i))
 
 pattern_react=re.compile("React")
 for i in titles:
