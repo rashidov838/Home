@@ -54,4 +54,3 @@ class Test_for_Purchase_with_using_register(unittest.TestCase):
 if  __name__=="__main__":
     unittest.main()
 
- 
