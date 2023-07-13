@@ -1,0 +1,750 @@
+{
+    "last update": "11 day, 07 month, 2023 - 19:58",
+    "data": [
+        {
+            "title": "Firefox address bar",
+            "link_to_article": "https://wiki.tilde.institute/w/firefox-address-bar-tips",
+            "score": 966
+        },
+        {
+            "title": "Show HN: Workout.lol \u2013 a web app to easily create a workout routine",
+            "link_to_article": "https://workout.lol",
+            "score": 932
+        },
+        {
+            "title": "Tuition costs have risen 710% since 1983",
+            "link_to_article": "https://statecraft.beehiiv.com/p/student-loan-debt-forgiveness",
+            "score": 684
+        },
+        {
+            "title": "Self-hosted photo and video backups directly from your mobile phone",
+            "link_to_article": "https://github.com/immich-app/immich",
+            "score": 671
+        },
+        {
+            "title": "Thunderbird 115",
+            "link_to_article": "https://www.thunderbird.net/en-US/thunderbird/115.0/whatsnew/",
+            "score": 545
+        },
+        {
+            "title": "First U.S. ban on sale of cellphone location data might be coming",
+            "link_to_article": "https://www.wsj.com/articles/first-u-s-ban-on-sale-of-cellphone-location-data-might-be-coming-fbe47e53",
+            "score": 524
+        },
+        {
+            "title": "Linux has achieved a 3% desktop market share",
+            "link_to_article": "https://linuxiac.com/linux-hits-3-percent-market-share/",
+            "score": 506
+        },
+        {
+            "title": "Shortening the Let's Encrypt chain of trust",
+            "link_to_article": "https://letsencrypt.org/2023/07/10/cross-sign-expiration.html",
+            "score": 493
+        },
+        {
+            "title": "New study reveals most classic video games are unavailable",
+            "link_to_article": "https://gamehistory.org/87percent/",
+            "score": 489
+        },
+        {
+            "title": "Lima: A nice way to run Linux VMs on Mac",
+            "link_to_article": "https://jvns.ca/blog/2023/07/10/lima--a-nice-way-to-run-linux-vms-on-mac/",
+            "score": 476
+        },
+        {
+            "title": "GPT-4 details leaked?",
+            "link_to_article": "https://threadreaderapp.com/thread/1678545170508267522.html",
+            "score": 453
+        },
+        {
+            "title": "An Introduction to Statistical Learning with Applications in Python",
+            "link_to_article": "https://www.statlearning.com",
+            "score": 427
+        },
+        {
+            "title": "A Japanese factory that designs clothes on a 40-year-old computer [video]",
+            "link_to_article": "https://www.youtube.com/watch?v=zWJZFQHklBg",
+            "score": 410
+        },
+        {
+            "title": "Privatisation has been a costly failure in Britain",
+            "link_to_article": "https://www.economist.com/by-invitation/2023/07/10/mathew-lawrence-on-why-privatisation-has-been-a-costly-failure-in-britain",
+            "score": 407
+        },
+        {
+            "title": "Nitter is working again",
+            "link_to_article": "https://github.com/zedeus/nitter/pull/927",
+            "score": 405
+        },
+        {
+            "title": "How small is the smallest .NET Hello World binary?",
+            "link_to_article": "https://blog.washi.dev/posts/tinysharp/",
+            "score": 404
+        },
+        {
+            "title": "We replaced Firecracker with QEMU",
+            "link_to_article": "https://hocus.dev/blog/qemu-vs-firecracker/",
+            "score": 395
+        },
+        {
+            "title": "Apple VisionOS Simulator streaming wirelessly to Meta Quest headset",
+            "link_to_article": "https://github.com/zhuowei/VisionOSStereoScreenshots/tree/alvr",
+            "score": 392
+        },
+        {
+            "title": "SUSE is forking RHEL",
+            "link_to_article": "https://www.suse.com/news/SUSE-Preserves-Choice-in-Enterprise-Linux/",
+            "score": 391
+        },
+        {
+            "title": "PoisonGPT: We hid a lobotomized LLM on Hugging Face to spread fake news",
+            "link_to_article": "https://blog.mithrilsecurity.io/poisongpt-how-we-hid-a-lobotomized-llm-on-hugging-face-to-spread-fake-news/",
+            "score": 383
+        },
+        {
+            "title": "Sarah Silverman is suing OpenAI and Meta for copyright infringement",
+            "link_to_article": "https://www.theverge.com/2023/7/9/23788741/sarah-silverman-openai-meta-chatgpt-llama-copyright-infringement-chatbots-artificial-intelligence-ai",
+            "score": 369
+        },
+        {
+            "title": "Easy SVG sparklines",
+            "link_to_article": "https://alexplescan.com/posts/2023/07/08/easy-svg-sparklines/",
+            "score": 340
+        },
+        {
+            "title": "Using Lidar to map tree shadows",
+            "link_to_article": "https://tedpiotrowski.svbtle.com/using-lidar-for-tree-shadows-in-shademap",
+            "score": 322
+        },
+        {
+            "title": "Shelf \u2013 open-source asset management software",
+            "link_to_article": "https://github.com/Shelf-nu/shelf.nu",
+            "score": 313
+        },
+        {
+            "title": "Apple plans a slow, appointment-only rollout of Vision Pro",
+            "link_to_article": "https://www.bloomberg.com/news/articles/2023-07-07/apple-vision-pro-headset-to-launch-in-us-stores-by-appointment",
+            "score": 304
+        },
+        {
+            "title": "Debate over 'fake work' and 'lazy management' in tech industry",
+            "link_to_article": "https://www.businessinsider.com/tech-industry-fake-work-problem-bad-managers-bosses-layoffs-jobs-2023-7",
+            "score": 268
+        },
+        {
+            "title": "A physicist who bets that gravity can\u2019t be quantized",
+            "link_to_article": "https://www.quantamagazine.org/the-physicist-who-bets-that-gravity-cant-be-quantized-20230710/",
+            "score": 252
+        },
+        {
+            "title": "GPT-Prompt-Engineer",
+            "link_to_article": "https://github.com/mshumer/gpt-prompt-engineer",
+            "score": 247
+        },
+        {
+            "title": "Easy HTTPS for your private networks",
+            "link_to_article": "https://www.getlocalcert.net/",
+            "score": 237
+        },
+        {
+            "title": "2048 Bit RSA and the Year 2030",
+            "link_to_article": "https://articles.59.ca/doku.php?id=em:20482030",
+            "score": 227
+        },
+        {
+            "title": "Kubernetes SidecarContainers feature is merged",
+            "link_to_article": "https://github.com/kubernetes/kubernetes/pull/116429",
+            "score": 212
+        },
+        {
+            "title": "Keep Linux Open and Free\u2013We Can\u2019t Afford Not To",
+            "link_to_article": "https://www.oracle.com/news/announcement/blog/keep-linux-open-and-free-2023-07-10/",
+            "score": 209
+        },
+        {
+            "title": "Wayland on OpenBSD",
+            "link_to_article": "https://xenocara.org/Wayland_on_OpenBSD.html",
+            "score": 209
+        },
+        {
+            "title": "Implementing Wordle in the Firefox address bar",
+            "link_to_article": "https://eieio.games/nonsense/implementing-wordle-in-the-firefox-address-bar/",
+            "score": 204
+        },
+        {
+            "title": "Mistakes with Rust smart pointers: when Deref goes wrong",
+            "link_to_article": "https://www.fuzzypixelz.com/blog/deref-confusion/",
+            "score": 198
+        },
+        {
+            "title": "PinePhone Modem SDK",
+            "link_to_article": "https://github.com/the-modem-distro/pinephone_modem_sdk",
+            "score": 197
+        },
+        {
+            "title": "A biological camera that captures and stores images directly into DNA",
+            "link_to_article": "https://www.nature.com/articles/s41467-023-38876-w",
+            "score": 186
+        },
+        {
+            "title": "Show HN: Danswer \u2013 Open-source question answering across all your docs",
+            "link_to_article": "https://github.com/danswer-ai/danswer",
+            "score": 176
+        },
+        {
+            "title": "Show HN: Laser, a new game played on a chess board",
+            "link_to_article": "https://playlaser.xyz",
+            "score": 165
+        },
+        {
+            "title": "Show HN: A hash array-mapped trie implementation in C",
+            "link_to_article": "https://github.com/mkirchner/hamt",
+            "score": 159
+        },
+        {
+            "title": "PhotoPrism: Browse Your Life in Pictures",
+            "link_to_article": "https://github.com/photoprism/photoprism",
+            "score": 156
+        },
+        {
+            "title": "Fifty years ago, a fire ripped through the National Personnel Records Center",
+            "link_to_article": "https://www.wired.com/story/the-night-17-million-precious-military-records-went-up-in-smoke/",
+            "score": 147
+        },
+        {
+            "title": "The controller pattern is awful, and other OO heresy (2013)",
+            "link_to_article": "https://eev.ee/blog/2013/03/03/the-controller-pattern-is-awful-and-other-oo-heresy/",
+            "score": 147
+        },
+        {
+            "title": "Invisible Details of Interaction Design",
+            "link_to_article": "https://rauno.me/craft/interaction-design",
+            "score": 144
+        },
+        {
+            "title": "Claude 2",
+            "link_to_article": "https://www.anthropic.com/index/claude-2",
+            "score": 139
+        },
+        {
+            "title": "Petalisp: Elegant High Performance Computing",
+            "link_to_article": "https://github.com/marcoheisig/Petalisp",
+            "score": 136
+        },
+        {
+            "title": "Brian Eno albums available in Dolby Atmos and Spatial",
+            "link_to_article": "https://www.udiscovermusic.com/news/brian-eno-albums-dolby-atmos-first-time/",
+            "score": 128
+        },
+        {
+            "title": "Feature Flags: Theory vs. Reality",
+            "link_to_article": "https://bpapillon.com/post/feature-flags-theory-vs-reality/",
+            "score": 128
+        },
+        {
+            "title": "Hilbert Transform",
+            "link_to_article": "https://electroagenda.com/en/hilbert-transform/",
+            "score": 127
+        },
+        {
+            "title": "MicroVM by QEMU",
+            "link_to_article": "https://qemu.readthedocs.io/en/latest/system/i386/microvm.html",
+            "score": 124
+        },
+        {
+            "title": "FreeShip Plus in Lazarus \u2013 An open-source software for boat and hull design",
+            "link_to_article": "https://github.com/markmal/freeship-plus-in-lazarus",
+            "score": 122
+        },
+        {
+            "title": "Show HN: The full source code and assets for my custom game engine and game",
+            "link_to_article": "item?id=36672183",
+            "score": 116
+        },
+        {
+            "title": "Ask HN: What tech newsletters are you currently subscribing to?",
+            "link_to_article": "item?id=36671105",
+            "score": 115
+        },
+        {
+            "title": "St\u00e9phane Graber has left Canonical",
+            "link_to_article": "https://stgraber.org/2023/07/10/time-to-move-on/",
+            "score": 112
+        },
+        {
+            "title": "Big Tech can transfer Europeans\u2019 data to US in win for Facebook and Google",
+            "link_to_article": "https://arstechnica.com/tech-policy/2023/07/big-tech-can-transfer-europeans-data-to-us-in-win-for-facebook-and-google/",
+            "score": 106
+        },
+        {
+            "title": "Tiny ELF Files: Revisited in 2021",
+            "link_to_article": "https://nathanotterness.com/2021/10/tiny_elf_modernized.html",
+            "score": 101
+        },
+        {
+            "title": "Frame generation essentials: Interpolation, extrapolation, and reprojection",
+            "link_to_article": "https://blurbusters.com/frame-generation-essentials-interpolation-extrapolation-and-reprojection/",
+            "score": 99
+        },
+        {
+            "title": "Show HN: Manabi Reader \u2013 Learn Japanese by Reading on iOS and macOS (SwiftUI)",
+            "link_to_article": "https://reader.manabi.io/#page-top",
+            "score": 98
+        },
+        {
+            "title": "Back-end parallelism in the Rust compiler",
+            "link_to_article": "https://nnethercote.github.io/2023/07/11/back-end-parallelism-in-the-rust-compiler.html",
+            "score": 95
+        },
+        {
+            "title": "The Perfect Business (2014) [pdf]",
+            "link_to_article": "https://www.beterinbeleggen.nl/pdf/tsm/The-Perfect-Business-Richard-Russell.pdf",
+            "score": 95
+        },
+        {
+            "title": "Letting users block injected third-party DLLs in Firefox",
+            "link_to_article": "https://hacks.mozilla.org/2023/03/letting-users-block-injected-third-party-dlls-in-firefox/",
+            "score": 92
+        },
+        {
+            "title": "People are paying to break printers with sledgehammers in smash rooms",
+            "link_to_article": "https://www.washingtonpost.com/technology/2023/07/10/rage-room-printers-recycle-environment-health/",
+            "score": 88
+        },
+        {
+            "title": "OwnCloud Infinite Scale added EULA that prohibits commercial use [pdf]",
+            "link_to_article": "https://github.com/owncloud/ocis/blob/master/assets/End-User-License-Agreement-for-ownCloud-Infinite-Scale.pdf",
+            "score": 87
+        },
+        {
+            "title": "Saving a German Library as an interface between research and infrastructure",
+            "link_to_article": "https://zukunft-der-sub.de/for-a-library-with-a-future",
+            "score": 83
+        },
+        {
+            "title": "A 286 running like a 386? (2021)",
+            "link_to_article": "https://www.dosdays.co.uk/topics/get_a_286_running_like_a_386_pt1.php",
+            "score": 81
+        },
+        {
+            "title": "Tumblr\u2019s core product strategy",
+            "link_to_article": "https://staff.tumblr.com/post/722477242948747264/tumblrs-core-product-strategy",
+            "score": 78
+        },
+        {
+            "title": "Meta\u2019s Microservice Architecture [pdf]",
+            "link_to_article": "https://www.usenix.org/system/files/atc23-huye.pdf",
+            "score": 75
+        },
+        {
+            "title": "Teardown of the TM4313 GPS Disciplined Oscillator",
+            "link_to_article": "https://tomverbeure.github.io/2023/07/09/TM4313-GPSDO-Teardown.html",
+            "score": 75
+        },
+        {
+            "title": "Mailgun: Public Security Disclosure",
+            "link_to_article": "item?id=36678348",
+            "score": 72
+        },
+        {
+            "title": "Hierarchical Navigable Small Worlds",
+            "link_to_article": "https://zilliz.com/blog/hierarchical-navigable-small-worlds-HNSW",
+            "score": 72
+        },
+        {
+            "title": "Entropy and Life (2013)",
+            "link_to_article": "https://letstalkaboutscience.wordpress.com/2013/02/14/entropy-and-life/",
+            "score": 71
+        },
+        {
+            "title": "Fairphone 3 gets seven years of updates, besting every other Android OEM",
+            "link_to_article": "https://arstechnica.com/gadgets/2023/07/fairphone-3-gets-seven-years-of-updates-besting-every-other-android-oem/",
+            "score": 69
+        },
+        {
+            "title": "How much information is too much information? (2022)",
+            "link_to_article": "https://sourcery.ai/blog/measuring_working_memory/",
+            "score": 69
+        },
+        {
+            "title": "HyperPhysics (1998)",
+            "link_to_article": "http://hyperphysics.phy-astr.gsu.edu/hbase/index.html",
+            "score": 67
+        },
+        {
+            "title": "We put a distributed database in the browser and made a game of it",
+            "link_to_article": "https://tigerbeetle.com/blog/2023-07-11-we-put-a-distributed-database-in-the-browser/",
+            "score": 66
+        },
+        {
+            "title": "SpaceX is stretching the lifetime of its reusable Falcon 9 boosters",
+            "link_to_article": "https://arstechnica.com/space/2023/07/spacex-launches-its-fleet-leading-rocket-booster-for-record-16th-time/",
+            "score": 65
+        },
+        {
+            "title": "Apple releases emergency update to fix zero-day exploited in attacks",
+            "link_to_article": "https://www.bleepingcomputer.com/news/apple/apple-releases-emergency-update-to-fix-zero-day-exploited-in-attacks/",
+            "score": 57
+        },
+        {
+            "title": "Bypassing Readout Protection in Nordic Semiconductor Microcontrollers",
+            "link_to_article": "https://www.emproof.com/",
+            "score": 55
+        },
+        {
+            "title": "GPS Log: Tracking wood movement down the McKenzie River",
+            "link_to_article": "https://gpslogdrive.com/",
+            "score": 54
+        },
+        {
+            "title": "You only compete with one thing",
+            "link_to_article": "https://world.hey.com/jason/you-only-compete-with-one-thing-48a20d93",
+            "score": 53
+        },
+        {
+            "title": "New Trans-Atlantic Data Privacy Framework Largely a Copy of \u201cPrivacy Shield\u201d",
+            "link_to_article": "https://noyb.eu/en/european-commission-gives-eu-us-data-transfers-third-round-cjeu",
+            "score": 52
+        },
+        {
+            "title": "Polymorphism and other important aspects of inheritance",
+            "link_to_article": "https://utcc.utoronto.ca/~cks/space/blog/programming/InheritanceSeparateAspects",
+            "score": 51
+        },
+        {
+            "title": "US Army Physical Fitness Test: Normative Data on 6022 Soldiers (1994)",
+            "link_to_article": "https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA274547.xhtml",
+            "score": 49
+        },
+        {
+            "title": "C++23: The Next C++ Standard",
+            "link_to_article": "http://modernescpp.com/index.php/c-23-the-next-c-standard",
+            "score": 48
+        },
+        {
+            "title": "How Cloudflare Images addressed the aCropalypse vulnerability",
+            "link_to_article": "https://blog.cloudflare.com/how-cloudflare-images-addressed-the-acropalypse-vulnerability/",
+            "score": 48
+        },
+        {
+            "title": "Making a potato livecam with the Commodore 128 VDC and ComputerEyes",
+            "link_to_article": "http://oldvcr.blogspot.com/2023/07/making-potato-webcam-with-commodore-128.html",
+            "score": 48
+        },
+        {
+            "title": "FloatZone: Accelerating Memory Error Detection Using the Floating Point Unit [pdf]",
+            "link_to_article": "https://download.vusec.net/papers/floatzone_sec23.pdf",
+            "score": 46
+        },
+        {
+            "title": "XFS online filesystem check and repair",
+            "link_to_article": "https://lwn.net/Articles/934561/",
+            "score": 45
+        },
+        {
+            "title": "Growing Rat Neurons to Play Video Games [video]",
+            "link_to_article": "https://www.youtube.com/watch?v=bEXefdbQDjw",
+            "score": 44
+        },
+        {
+            "title": "You're So Vain, You Probably Think This App Is About You: On Meta and Mastodon",
+            "link_to_article": "https://micro.coyotetracks.org/2023/07/10/youre-so-vain.html",
+            "score": 44
+        },
+        {
+            "title": "GPT Might Be an Information Virus",
+            "link_to_article": "https://nonint.com/2023/03/09/gpt-might-be-an-information-virus/",
+            "score": 44
+        },
+        {
+            "title": "At Japan\u2019s first winery, the country\u2019s oldest grape lives on",
+            "link_to_article": "https://www.japantimes.co.jp/life/2023/07/09/food/iwanohara-vineyard-niigata-joestu/",
+            "score": 42
+        },
+        {
+            "title": "Docs as Code at Linode (2020)",
+            "link_to_article": "https://www.linode.com/blog/linode/docs-as-code-at-linode/",
+            "score": 41
+        },
+        {
+            "title": "Roots of Trust Are Difficult",
+            "link_to_article": "https://mjg59.dreamwidth.org/66907.html",
+            "score": 40
+        },
+        {
+            "title": "Mac shipments grow 10%, as all major PC brands see downturns",
+            "link_to_article": "https://9to5mac.com/2023/07/11/mac-shipments-grow-10-percent/",
+            "score": 40
+        },
+        {
+            "title": "Fractals on an IBM 1401 mainframe (2015)",
+            "link_to_article": "https://www.righto.com/2015/03/12-minute-mandelbrot-fractals-on-50.html",
+            "score": 38
+        },
+        {
+            "title": "Threads and the Social/Communications Map",
+            "link_to_article": "https://stratechery.com/2023/threads-and-the-social-communications-map/",
+            "score": 36
+        },
+        {
+            "title": "Spider mite males undress maturing females to win the first mating",
+            "link_to_article": "https://phys.org/news/2023-07-spider-mite-males-maturing-females.html",
+            "score": 35
+        },
+        {
+            "title": "Codegen Units in the Rust Compiler",
+            "link_to_article": "https://nnethercote.github.io/2023/07/11/codegen-units-in-the-rust-compiler.html",
+            "score": 35
+        },
+        {
+            "title": "Microsoft Dev Box is now generally available",
+            "link_to_article": "https://azure.microsoft.com/en-us/blog/dev-optimized-cloud-based-workstations-microsoft-dev-box-is-now-generally-available/",
+            "score": 35
+        },
+        {
+            "title": "Ada and C: differences as the language for system programming (1993) [pdf]",
+            "link_to_article": "https://dl.acm.org/doi/10.1145/165354.165360",
+            "score": 32
+        },
+        {
+            "title": "Fungi stores a third of carbon from fossil fuel emissions",
+            "link_to_article": "https://www.eurekalert.org/news-releases/991288",
+            "score": 31
+        },
+        {
+            "title": "Origins of JSX and Why It Exists",
+            "link_to_article": "https://dodov.dev/blog/origins-of-jsx-and-why-it-exists",
+            "score": 31
+        },
+        {
+            "title": "Libdns: Core interfaces for universal DNS record manipulation across providers",
+            "link_to_article": "https://github.com/libdns/libdns",
+            "score": 30
+        },
+        {
+            "title": "Drinking water from nearly half of US faucets may have harmful chemicals",
+            "link_to_article": "https://www.npr.org/2023/07/06/1186230007/drinking-water-forever-chemicals-pfas-study",
+            "score": 29
+        },
+        {
+            "title": "Hybrid Insect Micro-Electro-Mechanical Systems (Hi-MEMS)",
+            "link_to_article": "https://en.wikipedia.org/wiki/Hybrid_Insect_Micro-Electro-Mechanical_Systems",
+            "score": 27
+        },
+        {
+            "title": "What Is the Numerical Range of a Matrix?",
+            "link_to_article": "https://nhigham.com/2023/07/11/what-is-the-numerical-range-of-a-matrix/",
+            "score": 25
+        },
+        {
+            "title": "There's always more history (2020)",
+            "link_to_article": "https://www.hillelwayne.com/post/always-more-history/",
+            "score": 24
+        },
+        {
+            "title": "Croppenheimer",
+            "link_to_article": "https://blog.valentin.sh/croppenheimer/",
+            "score": 24
+        },
+        {
+            "title": "Can a puppetry major survive a flagship\u2019s financial crisis? Should it?",
+            "link_to_article": "https://www.chronicle.com/article/fuzz-cut",
+            "score": 24
+        },
+        {
+            "title": "These are the oldest stone tools ever found in the United States",
+            "link_to_article": "https://arstechnica.com/science/2023/07/these-are-the-oldest-stone-tools-ever-found-in-the-united-states/",
+            "score": 23
+        },
+        {
+            "title": "iQuit: My Hellish Attempt to Leave Apple\u2019s Walled Garden",
+            "link_to_article": "https://www.bloomberg.com/news/features/2023-07-11/switching-from-iphone-to-android-is-a-data-transfer-hell",
+            "score": 23
+        },
+        {
+            "title": "Back-end parallelism in the Rust compiler",
+            "link_to_article": "https://nnethercote.github.io/2023/07/11/back-end-parallelism-in-the-rust-compiler.html",
+            "score": 22
+        },
+        {
+            "title": "Beyond the Gene (2018) [pdf]",
+            "link_to_article": "https://nick-lane.net/wp-content/uploads/2020/12/Lane-Nature-review-of-Zimmer.pdf",
+            "score": 21
+        },
+        {
+            "title": "Methods for increasing efficiency of solar cells with silicon and perovskite",
+            "link_to_article": "https://techxplore.com/news/2023-07-methods-efficiency-solar-cells-silicon.html",
+            "score": 21
+        },
+        {
+            "title": "Depth Precision Visualized (2015)",
+            "link_to_article": "https://developer.nvidia.com/content/depth-precision-visualized",
+            "score": 20
+        },
+        {
+            "title": "Cruise and Waymo\u2019s San Francisco Robotaxi Operations Delayed by State Regulator",
+            "link_to_article": "https://sfstandard.com/2023/07/10/cruise-and-waymos-24-7-san-francisco-robotaxi-operations-delayed-by-state-regulator/",
+            "score": 20
+        },
+        {
+            "title": "Tragedy of the Anticommons",
+            "link_to_article": "https://en.wikipedia.org/wiki/Tragedy_of_the_anticommons",
+            "score": 19
+        },
+        {
+            "title": "GitHub Profile Achievements",
+            "link_to_article": "https://cqcumbers.com/github_achievements/",
+            "score": 18
+        },
+        {
+            "title": "ScyllaDB is Moving to a New Replication Algorithm: Tablets",
+            "link_to_article": "https://www.scylladb.com/2023/07/10/why-scylladb-is-moving-to-a-new-replication-algorithm-tablets/",
+            "score": 17
+        },
+        {
+            "title": "Rose: Open-source compiler infra for source-to-source and code analysis tools",
+            "link_to_article": "http://rosecompiler.org/ROSE_HTML_Reference/index.html",
+            "score": 16
+        },
+        {
+            "title": "Sun Microsystems Wollemi UltraSPARC Prototype",
+            "link_to_article": "https://www.ricomputermuseum.org/collections-gallery/equipment/sun-microsystems-wollemi-ultrasparc-prototype",
+            "score": 16
+        },
+        {
+            "title": "Elizabeth Holmes\u2019 11-year prison sentence shortened by two years",
+            "link_to_article": "https://www.theguardian.com/us-news/2023/jul/10/elizabeth-holmes-11-year-prison-sentence-shortened-by-two-years",
+            "score": 16
+        },
+        {
+            "title": "The Unum Pattern (2019)",
+            "link_to_article": "http://habitatchronicles.com/2019/08/the-unum-pattern/",
+            "score": 16
+        },
+        {
+            "title": "Fairphone\u2019s repairable smartphone goes on sale in US for the first time",
+            "link_to_article": "https://techcrunch.com/2023/07/05/fairphones-repairable-smartphone-goes-on-sale-in-us-for-the-first-time-in-a-degoogled-murena-e-os-variant/",
+            "score": 15
+        },
+        {
+            "title": "Popular AO3 fanfiction site goes down in wave of DDoS attacks",
+            "link_to_article": "https://www.theverge.com/2023/7/11/23790860/ao3-fanfiction-archive-down-outage-ddos-attacks",
+            "score": 13
+        },
+        {
+            "title": "Real-time environmental surveillance of SARS-CoV-2 aerosols",
+            "link_to_article": "https://www.nature.com/articles/s41467-023-39419-z",
+            "score": 13
+        },
+        {
+            "title": "Ask HN: When is pure functional programming beneficial?",
+            "link_to_article": "item?id=36681049",
+            "score": 11
+        },
+        {
+            "title": "Former Sega president Irimajiri speaks out about the Saturn and the 32X",
+            "link_to_article": "https://mdshock.com/2023/07/10/irimajiri-speaks-out-about-the-saturn-the-32x-and-soas-financial-troubles/",
+            "score": 9
+        },
+        {
+            "title": "Mad Max: Practically CGI",
+            "link_to_article": "https://the-artifice.com/mad-max-practically-cgi/",
+            "score": 8
+        },
+        {
+            "title": "Scientists just invented a soybean that taste like pork",
+            "link_to_article": "https://www.fastcompany.com/90913749/these-soybeans-taste-like-pork",
+            "score": 7
+        },
+        {
+            "title": "Our Code Editor is open source",
+            "link_to_article": "https://www.raspberrypi.org/blog/code-editor-open-source/",
+            "score": 6
+        },
+        {
+            "title": "The day my ping took countermeasures",
+            "link_to_article": "https://blog.cloudflare.com/the-day-my-ping-took-countermeasures/",
+            "score": 6
+        },
+        {
+            "title": "Microarchitectural Attacks on Hardware RISC-V CPUs [pdf]",
+            "link_to_article": "https://publications.cispa.saarland/3924/1/security_risc.pdf",
+            "score": 6
+        },
+        {
+            "title": "The Weight of Data",
+            "link_to_article": "https://keefmck.blogspot.com/2023/07/the-weight-of-data.html",
+            "score": 6
+        },
+        {
+            "title": "Shining a light on the traffic signals of Sydney",
+            "link_to_article": "https://jakecoppinger.com/2023/07/shining-a-light-on-the-traffic-signals-of-sydney/",
+            "score": 6
+        },
+        {
+            "title": "How to Become a Better Speaker at Conferences",
+            "link_to_article": "https://www.smashingmagazine.com/2023/07/become-better-speaker-conferences/",
+            "score": 6
+        },
+        {
+            "title": "Solar Energy Solves Global Warming",
+            "link_to_article": "https://unchartedterritories.tomaspueyo.com/p/solar-energy-solves-global-warming",
+            "score": 5
+        },
+        {
+            "title": "Laws of UX",
+            "link_to_article": "https://lawsofux.com/",
+            "score": 5
+        },
+        {
+            "title": "US Scientist at Heart of Lab Leak Conspiracies Is Still Trying to Save the World",
+            "link_to_article": "https://time.com/6290193/covid-lab-leak-ralph-baric/",
+            "score": 5
+        },
+        {
+            "title": "Is distributed computing dying, or just fading into the backdrop?",
+            "link_to_article": "https://arstechnica.com/science/2023/07/is-distributed-computing-dying-or-just-fading-into-the-backdrop/",
+            "score": 5
+        },
+        {
+            "title": "Show HN: MagiQL, a GraphQL wrapper for natural language queries",
+            "link_to_article": "https://github.com/MarcoWorms/MagiQL",
+            "score": 5
+        },
+        {
+            "title": "Ask HN: Do you use any ChatGPT like tool for coding?",
+            "link_to_article": "item?id=36677768",
+            "score": 5
+        },
+        {
+            "title": "AI Safety and the Age of Dislightenment",
+            "link_to_article": "https://www.fast.ai/posts/2023-11-07-dislightenment.html",
+            "score": 4
+        },
+        {
+            "title": "Those insisting the pandemic was human-made are ignoring the known facts",
+            "link_to_article": "https://www.msnbc.com/the-mehdi-hasan-show/the-mehdi-hasan-show/covid-origin-report-lab-leak-theory-manmade-debunked-rcna91500",
+            "score": 4
+        },
+        {
+            "title": "Introduction to vector similarity search (2022)",
+            "link_to_article": "https://zilliz.com/blog/vector-similarity-search",
+            "score": 4
+        },
+        {
+            "title": "Show HN: Clickvote \u2013 Open-source upvotes, likes, and reviews to any context",
+            "link_to_article": "https://github.com/clickvote/clickvote",
+            "score": 3
+        },
+        {
+            "title": "Show HN: VC_OS \u2013 A comprehensive roadmap to startup funding",
+            "link_to_article": "https://vcos.app/",
+            "score": 3
+        },
+        {
+            "title": "The Disconnected State of Enterprise Risk Management",
+            "link_to_article": "https://thenewstack.io/the-disconnected-state-of-enterprise-risk-management/",
+            "score": 3
+        }
+    ]
+}

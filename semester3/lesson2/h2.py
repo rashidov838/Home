@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 from pprint import pprint
+import json
 
 # parsing
 def parser_vox():
@@ -23,7 +24,8 @@ def parser_vox():
                 })
             times.pop(0)
     pprint(result)
-
+    with open('data.json','w') as f:
+        json.dump(result,f)
 parser_vox()
 
 
