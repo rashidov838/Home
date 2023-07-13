@@ -11,20 +11,20 @@ def parser_vox():
     titles=soup.find_all(class_='c-entry-box--compact__title')
     author_title=soup.select(".c-byline")
     times=[time.get_text().rstrip().lstrip() for time in soup.select('time')]
-    
     for id, title in enumerate(titles):
         if author := author_title[id].find(class_="c-byline__author-name"):
             author=author.string.split()[0]
-            for time in times:
-                result.append({
-                    'title':title.a.string,
-                    'link': title.a['href'],
-                    'author':author,
-                    'datatime':time,
-                    })
-    return result
+            
+            result.append({
+                'title':title.a.string,
+                'link': title.a['href'],
+                'author':author,
+                'datatime':times[0],
+                })
+            times.pop(0)
+    pprint(result)
 
-print(parser_vox())
+parser_vox()
 
 
 # Codewars
