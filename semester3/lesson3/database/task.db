@@ -1,0 +1,50 @@
+-- CREATE TABLE celebs(
+-- 	id INTEGER PRIMARY KEY AUTOINCREMENT,
+-- 	name TEXT,
+-- 	lastname VARCHAR(50),
+-- 	age INTEGER
+-- 	);
+
+
+-- INSERT INTO celebs (name,lastname,age) VALUES ("Samandar","rashidov",20);
+-- INSERT INTO celebs (name,lastname,age) VALUES ("Komil","Komilov",41);
+-- ALTER TABLE celebs ADD Email VARCHAR(20);
+-- UPDATE celebs SET Email = "sam2@qweqwe" WHERE id  is 5;
+-- DELETE FROM celebs WHERE age is 20;
+
+-- DROP TABLE celebs;
+
+-- CREATE TABLE celebs (
+-- 	id  INTEGER PRIMARY KEY,
+-- 	name TEXT UNIQUE,
+-- 	date_of_birth TEXT NOT Null,
+-- 	date_of_death TEXT DEFAULT 'Not Applicable'
+-- )
+
+
+
+-- INSERT INTO celebs (name,date_of_birth) VALUES("Monika","2022-01-10");
+-- select * FROM celebs;
+
+
+-- Task
+-- CREATE TABLE friends (
+-- 	id INTEGER PRIMARY KEY AUTOINCREMENT,
+-- 	name TEXT NOT NULL,
+-- 	birthday date NOT NULL
+-- 	
+-- )
+
+-- INSERT INTO friends (name,birthday) VALUES("James Monro","30/05/1940");
+-- UPDATE friends SET birthday ="30/05/1940" WHERE name = "James Monro";
+-- INSERT INTO friends(name,birthday) VALUES("Sarvar","31/07/2022");
+-- INSERT INTO friends(name,birthday) VALUES("Xusan","23/04/2004");
+
+-- UPDATE friends SET name="Flash" where id is 3;
+
+-- ALTER TABLE friends DROP COLUMN Email;
+-- ALTER TABLE friends ADD Email VARCHAR(50) ;
+-- UPDATE friends SET Email = "xusan@qweqwe" WHERE id  == 4;
+-- DELETE from friends WHERE name="James Monro";
+-- SELECT * from friends;
+
