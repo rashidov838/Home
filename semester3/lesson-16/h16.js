@@ -1,10 +1,10 @@
 // Task-1
 
-// function disemvowel(str) {
-//     newWords=str.replace(/[aeiou]/gi,'');
-//     return newWords;
-//   }
-// console.log(disemvowel("This website is for losers LOL!"))
+function disemvowel(str) {
+    newWords=str.replace(/[aeiou]/gi,'');
+    return newWords;
+  }
+console.log(disemvowel("This website is for losers LOL!"))
 
 // Task-2
 function squares(x, n){
@@ -37,12 +37,12 @@ function squares(x, n){
 console.log(squares(2,6))
 
 // Task-3
-// function reverseWordsForLoop(str) {
-//     let newString = ""
-//     for (let i = str.length - 1; i >= 0; i--) {
-//       newString += str[i];
-//     }
-//     return newString;
-//   }
+function reverseWordsForLoop(str) {
+    let newString = ""
+    for (let i = str.length - 1; i >= 0; i--) {
+      newString += str[i];
+    }
+    return newString;
+  }
 
-// console.log(reverseWordsForLoop("lama"))
+console.log(reverseWordsForLoop("lama"))
