@@ -1,0 +1,286 @@
+*,*:before,*:after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+p{
+    margin: 0 0 5px;
+}
+
+.container{
+    width: 1920;
+    height: 2041;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.side__bar{
+    width: 285px;
+    height: 2041px;
+    color: #fff;
+    background-color: black;
+}
+.side__bar-content{
+    padding: 96px ;
+    width: 189px;
+    height: 875px;
+}
+.name{
+    width: 57px;
+    height: 39px;
+    margin-bottom: 100px;
+    margin-left: 0px;
+}
+
+.nav__link{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 30px;
+    
+}
+.nav__link.home,.nav__link.about,.nav__link.Services,.nav__link.Works,
+.nav__link.Blogs,.nav__link.Contact{
+    margin: 100px 0 ;
+    text-decoration: line-through ;
+}
+.nav__link:hover{
+    color: red;
+}
+.nav__icons{
+    width: 40px;
+    height: 144px;
+    align-items: center;
+    margin: 200px 0 -50px;
+}
+
+.copyright{
+    width: 189px;
+    height: 44px;
+    font-style: 16px;
+    margin-top: 90px ;
+    color: #fff;
+    letter-spacing: .15em;
+}
+/* end side-bar */
+
+.wrapper{
+    display: flex;
+}
+/* start works */
+.recent-project{
+    width: 1635px;
+    height: 972px;
+}
+
+.title{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding:110px 115px 50px;
+}
+.title h6{
+    color: #141313;
+    font-family: IBM Plex Sans;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 24px;
+
+}
+.title h1{
+    color: #141313;
+    font-family: IBM Plex Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    text-transform: uppercase;
+}
+
+.works{
+    padding: 0 185px 10px ;  
+    display: flex;
+
+}
+.works-1, .works-3{
+    display: inline-flex;
+    align-items: flex-end;
+    gap: 30px;
+    padding: 0 50px 20px 0;
+}
+
+
+.works-2{
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.works-4{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+.works-1 h1, .works-3 h1, .works-2 h1, .works-4 h1{
+    color: #141313;
+    font-family: IBM Plex Sans;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 40px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+button{
+    margin-left: 640px;
+    display: inline-flex;
+    height: 56px;
+    padding: 18px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    color: #fff;
+    background-color: #141313;
+}
+
+.testimonal{
+    width: 1235px;
+    height: 905px;
+    margin: 115px ;
+    background: linear-gradient(273deg, #FFB147 0%, #FF6C63 52.03%, #B86ADF 100%);
+}
+.test-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    gap: 16px;
+}
+.test-header h6{
+    color: #fff;
+    text-align: center;
+    font-family: IBM Plex Sans;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 24px;
+
+}
+
+.test-header h1{
+    color: #fff;
+    text-align: center;
+    font-family: IBM Plex Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    text-transform: uppercase;
+}
+
+.test-main{
+    margin-top: 64px;
+    display: flex;
+    height: 477px;
+    flex-shrink: 0;
+    padding: 0 145px;    /* align-items: center; */
+    /* justify-items: center; */
+}
+
+
+.person{
+    width: 345px;
+    height: 476px;
+    flex-shrink: 0
+}
+
+.quotes{
+    display: inline-flex;
+    flex-direction: column; 
+    align-items:flex-start; 
+    gap: 56px;
+}
+
+.quotes h2{
+    width: 545px;
+    color: #fff;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 40px;
+    margin: 50px 40px 0 112px;
+
+}   
+
+.quotes h5{
+    color: #fff;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0px 40px 0 112px;
+
+}   
+.quotes h6{
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: -50px 40px 0 112px;
+    letter-spacing: -0.16px;
+}   
+.arrows{
+    margin-left: 100px;
+    position: relative;
+}
+.arrows img:nth-child(1){
+    position: absolute;
+    margin-top: 20px;
+    left: 30%;
+    z-index: 1;
+}
+.arrows img:nth-child(2){
+    position:absolute;
+    left: 50%;
+    margin-top: 5px;
+    margin-left: 34px;
+
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+    margin-inline-start: 80px;
+}
+.logos img{
+    padding-right: 69px;
+}
+/* .logos img:nth-child(1){
+    width: 200px;
+    height: 88px;
+} */
+.logos img:nth-child(3){
+    margin-top: 18px;
+    height: 46px;
+}
+/* end works */

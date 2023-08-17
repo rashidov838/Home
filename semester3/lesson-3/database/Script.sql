@@ -10,5 +10,5 @@
 --	(2,'Xusan','2003-10-01','Xusan@gmail.com'),
 --	(3,'Jony','2003-10-01','Jony@gmail.com');
 
-update friends set name='Kom' where name='Jony'; 
-select * from friends;
+--update friends set name='Kom' where name='Jony'; 
+--select * from friends;

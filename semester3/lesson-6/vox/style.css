@@ -2,7 +2,7 @@ body{
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
     color: #6c7279;
-    background-color: black;
+    background-color: #fff;
 }
 
 *,
@@ -120,4 +120,24 @@ body{
 .intro{
     height: 750px;
     padding-top: 250px;
+   
+}
+
+.intro-title{
+    font-style: italic;
+    font-weight: normal;
+    line-height: 1.2;
+    letter-spacing: .02em;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 250px 490px 80px ;
+    text-align: center;
+}
+
+.intro_content{
+    
+}
+
+.logo-container{
+    width: 200px;
 }

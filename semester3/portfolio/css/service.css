@@ -1,0 +1,143 @@
+*,*:before,*:after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+p{
+    margin: 0 0 5px;
+}
+
+.container{
+    width: 1920;
+    height: 960;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.side__bar{
+    width: 285px;
+    height: 960px;
+    color: #fff;
+    background-color: black;
+}
+.side__bar-content{
+    padding: 96px ;
+    width: 189px;
+    height: 875px;
+}
+.name{
+    width: 57px;
+    height: 39px;
+    margin-bottom: 100px;
+    margin-left: 0px;
+}
+
+.nav__link{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 30px;
+    
+}
+.nav__link.home,.nav__link.about,.nav__link.Services,.nav__link.Works,
+.nav__link.Blogs,.nav__link.Contact{
+    margin: 100px 0 ;
+    text-decoration: line-through ;
+}
+.nav__link:hover{
+    color: red;
+}
+.nav__icons{
+    width: 40px;
+    height: 144px;
+    align-items: center;
+    margin: 200px 0 -50px;
+}
+
+.copyright{
+    width: 189px;
+    height: 44px;
+    font-style: 16px;
+    margin-top: 90px ;
+    color: #fff;
+    letter-spacing: .15em;
+}
+/* end side-bar */
+
+
+.wrapper{
+    display: flex;
+}
+
+
+.title{
+    margin: 100px;
+}
+.title h1{
+    padding: 20px 0;
+}
+.services-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1235px;
+}
+
+.services {
+    margin: -100px 80px;
+}
+
+.services-block ul  {
+    font-size: 16px;
+    margin: 20px;
+    text-transform: uppercase;
+}
+
+.services-block p{
+    width: 545px; 
+    text-align: justify;
+    padding: 55px 60px;
+}
+
+ .services-block-p1{
+    margin-left: 60px
+ }
+
+
+.services-block-p2{
+    margin-right: 80px ;
+}
+
+.services-block-p3{
+    margin-top: -20px;
+    margin-right: 18px ;
+}
+.services-block figure{
+    padding-right: 60px;
+}
+.services-block figure img{
+    width: 100%;
+    height: 180px;
+    margin-bottom: 20px;
+}
+
+.services-block figure figcaption{
+    padding-bottom: 20px;
+}
+.services-block img{
+    height: 40px;
+    margin-top: 20px;
+}

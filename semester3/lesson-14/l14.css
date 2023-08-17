@@ -1,0 +1,26 @@
+textarea{
+    width: 201px;
+    height: 31px;
+}
+button{
+    background-color: blue;
+    color: #FFF;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.32px;
+    text-transform: uppercase; 
+    margin-left: -40px;
+}
+.block p{
+    color: var(--unnamed, #2F3035);
+    font-family: SF Pro Display;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+    width: 222px;
+}

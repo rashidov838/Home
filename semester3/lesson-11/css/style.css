@@ -1,0 +1,31 @@
+/* .container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.info{
+    margin: 10px 20px n;
+} */
+
+.info{
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+}
+img{
+    float: left;
+    height: 100%;
+    margin-right: 40px;
+}
+div{
+    border: 10px solid;
+    height: 200px;
+    clear: left;
+    margin-top: 10px;
+}
+a {
+    font-style: 39px;
+    color: black;
+    text-decoration: none;
+    padding: 50px;
+}
