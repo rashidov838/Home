@@ -98,3 +98,32 @@ function fibonacci(n){
 }
 
 console.log(fibonacci(4))
+
+task-6
+filter
+const array1=[1,2,3,4];
+const map1=array1.filter((x)=> x*2);
+console.log(map1)
+
+
+map
+const array1=[1,2,3,4];
+const map1=array1.map((x)=> x*2);
+console.log(map1)
+
+
+findIndex
+const array1=[1,2,30,40];
+const IslargerNUmber=(element)=>element>13
+console.log(array1.findIndex(IslargerNUmber))
+
+every
+const array1=[1,2,30,40];
+const array1 = [1, 30, 39, 29, 10, 13];
+const isBelowThreshold=(value)=>value<40;
+console.log(array1.every(isBelowThreshold))
+
+some
+const array1=[1,2,3,4,5];
+const evenn=(element)=>element%2===0;
+console.log(array1.some(evenn))
