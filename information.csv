@@ -1,0 +1,4 @@
+name,email,password,purchases,card
+Behruz,234asd@gmail.com,12313123,[],"{'code': '1234567890098765', 'balance': 500}"
+behruz,behruz@gmail.com,21fghghs,"['wear', 'key']","{'code': '4562456245624562', 'balance': 1000}"
+QWERTY,QWERTY@gmail.com,21fghghs,[],"{'code': '4562956245624562', 'balance': 500}"

@@ -1,0 +1,142 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 100%;
+}
+
+.container {
+  width: 1170px;
+  height: 100px;
+  margin: 0 auto;
+}
+.container_header {
+  text-align: center;
+  margin-top: 20px;
+  /* border: 1px solid; */
+}
+.container_body {
+  text-align: center;
+  margin-top: 40px;
+  /* border: 1px solid; */
+  height: 100px;
+}
+.container_body_round {
+  /* border: 1px solid; */
+}
+
+.container_body_round h4 {
+  /* margin-right: 30px; */
+  margin-top: 8px;
+}
+
+.container_body_block__all {
+  /* border: 1px solid; */
+  height: 400px;
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.container_body_block {
+  width: 300px;
+  height: 350px;
+  border: 1px solid;
+}
+.container_body_block:first-child {
+  margin-right: 10px;
+}
+.container_body_block_header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#computernum {
+  margin-top: 80px;
+  font-size: 60px;
+  margin-bottom: 18px;
+}
+.container_body_block_header h1 {
+  margin-top: 5px;
+}
+.container_body_block_header:last-child h6 {
+  font-size: 20px;
+}
+
+.container_body_block_header img {
+  margin-top: 80px;
+  width: 40px;
+  height: 40px;
+}
+.container_body_block:nth-child(1) {
+  background-color: rgb(237, 234, 234);
+}
+#input_div {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.input_div_number {
+  text-align: center;
+}
+.input_div_number input {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+}
+.input_div_plus_minus {
+  text-align: center;
+  margin-top: 15px;
+}
+.input_div_plus_minus input {
+  height: 30px;
+  width: 50px;
+}
+.input_div_plus_minus input:nth-child(1) {
+  border-radius: 18px 0 0 18px;
+  border-color: blue;
+  margin-right: -5px;
+}
+.input_div_plus_minus input:nth-child(2) {
+  border-radius: 0 18px 18px 0;
+  border-color: blue;
+}
+.input_div_button,
+.input_div_button_for_computer {
+  text-align: center;
+  margin-top: 15px;
+  /* border: 1px solid; */
+}
+.input_div_button button, .input_div_button_for_computer button{
+  height: 50px;
+  width: 150px;
+  background-color: blue;
+  border: 0;
+  color: #fff;
+}
+.input_div_button_for_computer{
+  margin-bottom: 12px;
+}
+/* next_round */
+
+.next_round {
+  text-align: center;
+  margin-top: 50px;
+}
+.next_round button {
+  height: 70px;
+  width: 190px;
+  background-color: blue;
+  border: 0;
+  color: #fff;
+}
+/* winner */

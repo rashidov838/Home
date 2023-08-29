@@ -1,4 +1,4 @@
-Task-1
+// Task-1
 const menu = {
     _meal: "beef",
     _price: 100,
@@ -31,7 +31,7 @@ menu.newMeal="chicken"
 menu.price=400
 console.log(menu.mealAndPrice)
 
-Task-2
+// Task-2
 function count(array){
     const newaaray={}
     for(let i=0; i<array.length; i++){
@@ -48,7 +48,7 @@ function count(array){
 console.log(count(['james', 'james', 'john']) )
 
 
-Task-3
+// Task-3
 function killer(suspects,dead){
     const info= new Array()
         for(i of dead){
@@ -67,7 +67,7 @@ console.log(killer({'James': ['Jacob', 'Bill', 'Lucas'], 'Johnny': ['David', 'Ky
 console.log(killer({'Brad': [], 'Megan': ['Ben', 'Kevin'], 'Finn': []}, ['Ben']))
 
 
-Task-4
+// Task-4
 function findOdd(array) {
     const newaaray={}
     array.forEach(element => {
@@ -90,40 +90,40 @@ function findOdd(array) {
 console.log(findOdd([7,7,1,1,1])) 
 
 
-Task-5
+// Task-5
 function fibonacci(n){
     if(n<1) return 1;
     else if(n===1) return 0;
     else return fibonacci(n-1)+fibonacci(n-2)
 }
 
-console.log(fibonacci(4))
+console.log(fibonacci(4))   
 
-task-6
-filter
+// task-6
+// filter
 const array1=[1,2,3,4];
 const map1=array1.filter((x)=> x*2);
 console.log(map1)
 
 
-map
-const array1=[1,2,3,4];
-const map1=array1.map((x)=> x*2);
+// map
+// const array1=[1,2,3,4];
+// const map1=array1.map((x)=> x*2);
 console.log(map1)
 
 
-findIndex
-const array1=[1,2,30,40];
+// findIndex
+// const array1=[1,2,30,40];
 const IslargerNUmber=(element)=>element>13
 console.log(array1.findIndex(IslargerNUmber))
 
-every
-const array1=[1,2,30,40];
-const array1 = [1, 30, 39, 29, 10, 13];
+// every
+// const array1=[1,2,30,40];
+// const array1 = [1, 30, 39, 29, 10, 13];
 const isBelowThreshold=(value)=>value<40;
 console.log(array1.every(isBelowThreshold))
 
-some
-const array1=[1,2,3,4,5];
+// some
+// const array1=[1,2,3,4,5];
 const evenn=(element)=>element%2===0;
 console.log(array1.some(evenn))

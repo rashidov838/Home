@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Roboto:ital,wght@0,300;0,700;1,300;1,700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Amity University</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="">Home</a></li>
+                    
+                    <li><a href="">About</a></li>
+                    
+                    <li><a href="">Course</a></li>
+                    
+                    <li><a href="">Blog</a></li>
+                    
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+
+        <div class="text-box">
+            <h1>World Biggest University</h1>
+            <p>
+                Making website is now one of the easiest thing in the world.
+                You just need to learn Lorem ipsum dolor sit, amet consectetur\ <br> Voluptatibus quidem, a adipisci aliquam dolor eveniet fugiat nesciunt velus 
+             </p>
+
+            <a href="" class="hero-btn"> Visit us To know More</a>
+        </div>
+
+
+
+
+</section>
+
+<!-- 32:16 -->
+
+
+
+<!-- ----------------------------Javascript for Menu -->
+<Script>
+
+    var navLinks=document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</Script>
+
+</body>
+</html>

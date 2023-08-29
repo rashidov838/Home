@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="h21.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="container_header">
+                <h1>Number Guesser!</h1>
+            </div>
+            <div class="container_body__all">
+                <div class="container_body">
+                    <div class="container_body_round">
+                        <h1>Round 
+                            <span id="roundNumber">1</span></h1>
+                        <h4>Target Number: <span id="questionheader">?</span></h4>
+                    </div>
+                </div>
+                <div class="container_body_block__all">
+                    <div class="container_body_block">
+                        <div class="container_body_block_header">
+                            <h1>Computer</h1>
+                            <h6>Score:
+                                <span id="scorecount_comp">0</span>
+                            </h6>
+
+                            <img id="imgq" src="question.png" alt="">
+                            <span id="computernum" style="visibility: hidden;">text</span>
+                            <div class="input_div_button_for_computer">
+                                <button id="winner" type="submit" style="visibility: hidden;">Winner</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container_body_block">
+                        <div class="container_body_block_header">
+                            <h1>You</h1>
+                            <h6>Score:
+                                <span id="scorecount_me">0</span>
+                            </h6>
+                        </div>
+
+                        <div id="input_div">
+                            <div class="input_div_number">
+                                <input type="text" value="0" id="count">
+                            </div>
+                            <div class="input_div_plus_minus">
+                                <input type="button" value="-" id="minus" onclick="minus()">
+                                <input type="button" value="+" name="" id="plus" onclick="plus()">
+                            </div>
+                            <div class="input_div_button">
+                                <button id="makeguess" type="submit">Make a Guess</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="next_round">
+                    <button id="next_round" type="reset"> Next round</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer">
+            <div id="result"></div>
+        </div>
+    </div>
+    <script src="./h21.js"></script>
+</body>
+
+</html>
