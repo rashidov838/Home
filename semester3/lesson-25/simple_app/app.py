@@ -52,6 +52,17 @@ pets = {
 #         """
 
 
+@app.route("/animals")
+def main_page():
+    return f"""
+     <h1>List animals: </h1>
+    <ul>
+     <li><a href="/animals/dogs">{pets["dogs"][0]["name"]}</a></li>
+    <li><a href="/pet_detail">{pets["cats"][0]["name"]}</a></li>
+    <li><a href="/animals/rabbits">{pets["rabbits"][0]["name"]}</a></li>
+   </ul>
+    """
+
 
 @app.route("/animals/<animal_type>")
 def pet_list(animal_type):
@@ -75,7 +86,7 @@ def pet_list(animal_type):
 
 @app.route("/animals/<animal_type>/<animal_name>")
 def pet_details(animal_type, animal_name):
-    if animal_type in pets.keys():
+    if (animal_type in pets.keys()) and (animal_name is not None):
         return f"""
         <p>Name: {animal_name}</p>
         <p>Age: {pets[animal_type][0]["age"]}</p>
