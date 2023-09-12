@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+<h1>List of my recipes</h1>
+<p>Recipies description</p>
+<nav>
+    <ul>
+
+        {% for key, recipe in recipes.items() %}
+        <!-- <li><a href="/recipe/{{key}}">{{ recipe | title}}</a></li> -->
+        <li><a href="{{url_for('recipe',id=key)}}">{{ recipe | title}}</a></li>
+        {% endfor %}
+
+    </ul>
+</nav>
+
+<form action="/" method="post">
+    {{ form.hidden_tag() }}
+    <p>
+        {{form.recipe.label}}
+        {{form.recipe()}}
+    </p>
+    <p>
+        {{form.recipe_type.label(_class="recipe_type")}}
+        {{form.recipe_type()}}
+    </p>
+    <p>
+        {{form.description.label}}
+        {{form.description()}}
+    </p>
+    <p>
+        {{form.ingredients.label}}
+        {{form.ingredients()}}
+    </p>
+    <p>
+        {{form.instructions.label}}
+        {{form.instructions()}}
+    </p>
+    <p>
+        {{form.submit()}}
+    </p>
+</form>
+
+
+{% endblock  %}
+
+<!-- <title>{{title | default("Amazing baby") }}</title> -->
